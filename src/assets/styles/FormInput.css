@@ -1,0 +1,86 @@
+.form-input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input__label {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: var(--color_text_main);
+  font-family: var(--text_font);
+}
+
+.form-input__label_place_popup {
+  font-size: 16px;
+}
+
+.form-input__input {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1.5px solid var(--color_border);
+  border-radius: 3px;
+  font-family: var(--text_font);
+  color: var(--color_text_main);
+}
+
+.form-input__input_place_popup {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.form-input__input_place_main {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.form-input__input:focus {
+  outline: none;
+  border: 1.5px solid var(--color_text_main);
+}
+
+.form-input__input::placeholder {
+  color: rgb(0, 0, 0, .5);
+  font-family: var(--text_font);
+  font-size: 12px;
+}
+
+.form-input__input_place_popup::placeholder {
+  font-size: 14px;
+}
+
+.form-input__input_place_main::placeholder {
+  font-size: 14px;
+}
+
+.form-input__input_state_success {
+  border: 1.5px solid var(--color_success);
+}
+
+.form-input__input_state_success:focus {
+  border: 1.5px solid var(--color_success);
+}
+
+.form-input__input_state_error {
+  border: 1.5px solid var(--color_error);
+}
+
+.form-input__input_state_error:focus {
+  border: 1.5px solid var(--color_error);
+}
+
+.form-input__error-msg {
+  margin: -5px 0 0;
+  padding: 0;
+  min-height: 28px;
+  width: fit-content;
+  font-size: 12px;
+  font-family: var(--text_font);
+  color: var(--color_error);
+}

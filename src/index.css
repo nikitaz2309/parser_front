@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/Roboto-Medium.ttf') format("ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/Roboto-Regular.ttf') format("ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/Roboto-Bold.ttf') format("ttf");
+}
+
+body {
+  /* css variables */
+
+  /* background colors */
+  --color_background: #F6F8F9;
+  --color_accent: #102f83;
+  --color_block: #fff;
+  --color_border: #d2d2dc;
+
+  /* text colors */
+  --color_text_fade: #707880;
+  --color_text_main: #454748;
+  --color_text_button: #fff;
+  --color_text_link: #007bff;
+
+  /* colors buttons */
+  --color_button_main_hover: #4752AC;
+  --color_button_signup: #209765;
+  --color_button_signup_hover: #008D5B;
+  --color_button_disabled: #ABA9BB;
+
+  /* service colors */
+  --color_error: #B43942;
+  --color_success: #209765;
+
+  /* text props */
+  --text_font: 'Roboto', sans-serif;
+
+  margin: 0;
+  background-color: var(--color_background);
+  color: var(--color_text_main);
+}

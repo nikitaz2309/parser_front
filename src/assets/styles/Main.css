@@ -1,0 +1,24 @@
+.main {
+  margin: 0 auto;
+  padding: 70px 15px 40px;
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 65%);
+  grid-template-rows: repeat(3, auto);
+  gap: 30px;
+  grid-template-areas:
+    "front"
+    "form"
+    "subtitle";
+  justify-content: center;
+}
+
+.main__subtitle {
+  margin: 50px 0 0;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--text_font);
+  color: var(--color_text_fade);
+  grid-area: "subtitle";
+}
